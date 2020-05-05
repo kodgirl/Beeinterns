@@ -1,0 +1,196 @@
+
+/*header*/
+
+.header-menu{
+	display: flex;
+	align-items: center;
+	background-color: #F4F4F4;
+	height: 45px;
+	padding-left: 100px;
+}
+
+.header-menu div{
+	color: grey;
+	margin-right: 30px;
+}
+
+.hat{
+	display: flex;
+	align-items: center;
+	padding: 0px 95px;
+	height: 100px;
+	justify-content: space-between;
+}
+
+.search .blue-button{
+	background-color: #007AFF;
+	color: white;
+	flex-grow: 1;
+}
+
+.search{
+	display: flex;
+	width: 475px;
+	height: 47px;
+	align-items: stretch;
+}
+
+.search input{
+	flex-grow: 3;
+	margin: 0px;
+}
+
+.log-in{
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.log-in button{
+	flex-grow: 1;
+	margin: 0px;
+	margin-right: 20px;
+}
+	
+/*main*/
+	
+html{
+font-size: 14px;
+}
+
+header{
+width: 100%;
+}
+
+main, .footer{
+width: 970px;
+margin: 0 auto;
+}
+
+.seller-menu{
+display: flex;
+justify-content: space-around;
+color: grey;
+margin: 20px;
+}
+
+.seller-card{
+border: 1px solid grey;
+padding: 20px;
+min-height: 633px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+h1{
+text-align: center;
+margin: 35px;
+}
+
+input{
+display: block;
+flex-grow: 1;
+height: 40px;
+margin-bottom: 10px;
+}
+
+.name input{
+	width: 236px;
+margin-left: 10px;
+}
+
+.name :first-child{
+	width: 151px;
+	margin-left: 0px;
+}
+
+.input{
+display: flex;
+justify-content: space-between;
+}
+
+.address{
+display: flex;
+justify-content: space-between;
+}
+
+.address-column{
+width: 298px;
+}
+
+.address-column input{
+	width: 298px;
+}
+
+.card-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.back{
+	width: 100px;
+	height: 40px;
+}
+
+.submit{
+	width: 150px;
+	height: 40px;
+	background-color: #007AFF;
+	color: white;
+}
+
+.card-bottom div{
+	color: grey;
+}
+
+.grey{
+	color: grey;
+}
+
+.blue{
+	color: #007AFF;
+}
+
+.input-title{
+	margin-bottom: 9px;
+	font-weight: bold;
+}
+
+/*footer*/
+
+.footer{
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+}
+
+.head-contact{
+font-weight: bold;
+font-size: 24px;
+}
+
+.media{
+display: flex;
+align-items: center;
+}
+
+.contacts > div{
+margin: 10px 0px;
+}
+
+.bottom{
+margin-top: 30px;
+justify-content: center;
+display: flex;
+}
+
+.bottom p{
+color: grey;
+}
+
+.bottom :first-child{
+margin-right: 5px;
+}
